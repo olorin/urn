@@ -1,7 +1,8 @@
-resolver: lts-6.10
+resolver: lts-7.5
 packages:
 - '.'
-extra-deps: []
+extra-deps:
+- psi-0.1.1.0
 flags: {}
 extra-package-dbs: []
 compiler-check: newer-minor
