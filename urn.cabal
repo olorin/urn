@@ -1,0 +1,21 @@
+name:                urn
+version:             0.1.0.0
+synopsis:            Sample various things.
+license:             MIT
+license-file:        LICENSE
+author:              Sharif Olorin
+maintainer:          sio@tesser.org
+copyright:           2016 Sharif Olorin
+build-type:          Simple
+extra-source-files:  README.md
+cabal-version:       >=1.10
+category:            System
+
+library
+  hs-source-dirs:      src
+
+  exposed-modules:     System.Random.Urn
+
+  build-depends:       base >= 3 && < 5
+
+  default-language:    Haskell2010
