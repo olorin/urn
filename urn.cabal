@@ -14,7 +14,9 @@ category:            System
 library
   hs-source-dirs:      src
 
-  exposed-modules:     System.Random.Urn
+  exposed-modules:     
+                       System.Random.Urn
+                       System.Random.Urn.Types
 
   build-depends:       base >= 3 && < 5
 
